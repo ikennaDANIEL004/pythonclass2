@@ -1,0 +1,2 @@
+DOWNLOAD git
+create an account on github
