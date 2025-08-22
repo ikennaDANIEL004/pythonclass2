@@ -10,7 +10,7 @@ If n then break and end the program
 yes = "y"
 no = "n"
 while True:
-    choose = input("choose between yes or no ").lower()
+    choose = input("choose between yes or no: ").lower()
     if choose == "y":
         print(True)
     elif choose == "n":
