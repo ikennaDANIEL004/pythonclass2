@@ -14,12 +14,8 @@ while(begin < end ):
     
     print(f"This is the value starting point  {begin}")
     begin = begin + 1 
-    if begin == 3:
+    if begin % 3 == 0:
         print(f"{begin}fizz")
-    elif begin % 3 == 0:
-        print(f"{begin}fizz")
-    elif begin == 5:
-        print(f"{begin}buzz")
     elif begin % 5 == 0:
         print(f"{begin}buzz")
 
