@@ -15,6 +15,6 @@ while(begin < end ):
     begin = begin + 1 
     if begin % 3 == 0:
         print(f"{begin}fizz")
-    elif begin % 5 == 0:
+    elif begin % 5 == 0: 
         print(f"{begin}buzz")
     print(begin)
