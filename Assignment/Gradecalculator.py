@@ -16,15 +16,15 @@ def grade_calculator():
     if score < 0 or score > 100:
         print("invalid score, please enter your score again")
     elif score >= 90:
-        print("A thats an excellent score!")
+        print(" 'A' thats an excellent score!")
     elif score > 80 and  score < 89:
-        print("B  good job")
+        print("'B'  good job")
     elif score > 70 and  score < 79:
-        print("C  you can do better")
+        print("'C'  you can do better")
     elif score > 60 and score < 69: 
-        print("D Better grades next time ")
+        print(" 'D' Better grades next time ")
     elif score < 60:
-        print("F is not a good score ")
+        print(" 'F' is not a good score ")
     else:
         print("thats not even a score ")
 

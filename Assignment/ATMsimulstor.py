@@ -25,7 +25,7 @@ balance = 1000
 print ("1. Check balance \n 2.  Deposit \n 3. Withdraw")
 choose = input("choose an option:  ")
 if choose == "1":
-    print(f"your balance is {balance}")
+    print(f"your balance is ${balance}")
 elif choose == "2":
     deposit = int(input("enter deposit amount:  "))
     new_balance = int(balance + deposit)
@@ -40,9 +40,9 @@ elif choose == "3":
     else:
         print("withdrawal processing ")
         time.sleep(10)
-        print(f"your about to withdraw {withdraw}")
+        print(f"your about to withdraw ${withdraw}")
         print("Withdrawal successful ")
-        print(f"your balance is {balance - withdraw}")
+        print(f"your balance is ${balance - withdraw}")
         
 
 
