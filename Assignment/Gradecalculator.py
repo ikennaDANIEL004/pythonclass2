@@ -11,7 +11,7 @@ Handle invalid input (scores outside 0-100 range)
 
 """
 
-def grade_calculator():
+def grade_calculator(): 
     score = int(input("enter your score   "))
     if score < 0 or score > 100:
         print("invalid score, please enter your score again")
